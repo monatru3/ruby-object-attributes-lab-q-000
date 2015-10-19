@@ -1,6 +1,6 @@
 class Person
-  def create(name)
-    @name=name
+  def create(human_name)
+    @name=human_name
   end
   def name
     @name
@@ -10,8 +10,8 @@ class Person
     @name=insert_name
   end
 
-      def create(job)
-    @job=job
+      def create(persons_job)
+    @job=persons_job
   end
   def job
     @job

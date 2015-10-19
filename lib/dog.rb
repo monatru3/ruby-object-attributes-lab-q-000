@@ -1,6 +1,6 @@
 class Dog
-  def create(name)
-    @name=name
+  def create(dog_name)
+    @name=dog_name
   end
   def name
     @name
@@ -10,9 +10,10 @@ class Dog
     @name=insert_name
   end
 
-      def create(breed)
-    @breed=breed
+  def create(dog_breed)
+    @breed=dog_breed
   end
+
   def breed
     @breed
   end
